@@ -10,7 +10,6 @@
 
 \usepackage{pgfplots}
 
-
 \usepackage[dvipsnames]{xcolor}
 
 %% Data about the document, like title, author, etc.
@@ -66,3 +65,15 @@
 \input{preamble/user/macros}
 \input{preamble/user/packages-macros.tex}
 \input{preamble/user/math}
+
+
+\usepackage[
+    nonumberlist,
+    % toc, 
+    section=section, 
+    acronyms,
+    style=list]{glossaries-extra}
+
+
+\makeglossaries
+\loadglsentries{preamble/glossary.tex}

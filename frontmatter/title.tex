@@ -9,7 +9,7 @@
     \vfill
 
     {\ifFANCY\sffamily\Huge\else\bfseries\LARGE\fi
-        \MakeUppercase{\ThesisType} notes personelles}
+        \ThesisType\space notes}
 
     \vfill
 
@@ -34,12 +34,12 @@
         \large
         \renewcommand{\arraystretch}{1.2}
         \begin{tabular}{>{\sffamily\color{Gray40}}r @{\hspace{1.0em}} l}
-            Responsable de matiere    & \Supervisor     \\
+            Redacion    & \Supervisor     \\
             \ifdef{\CoSupervisor}{%
             Responsable OM & \CoSupervisor   \\
             }{}
             \ifdef{\StudyProgramme}{% TODO: programme vs program?
-            Cursus             & \StudyProgramme \\
+            During             & \StudyProgramme \\
             }{}
         \end{tabular}
     \end{center}
@@ -52,7 +52,7 @@
         \emph{Revised version \YearRevision} \par
     }{}
     \ifWIP
-        \small\ttfamily \textcolor{red}{(Draft - \today)} \par
+        \small\ttfamily \textcolor{Salmon}{(Draft - \today)} \par
     \fi
 \end{center}
 

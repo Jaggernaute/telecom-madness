@@ -1,20 +1,20 @@
 %% Thesis type: bachelor, master, doctoral
-\NewExpandableDocumentCommand{\ThesisType}{}{L2 ISTN}
+\NewExpandableDocumentCommand{\ThesisType}{}{Personal}
 
 %% Thesis title (exactly as in the formal assignment)
-\NewExpandableDocumentCommand{\ThesisTitle}{}{Titre}
+\NewExpandableDocumentCommand{\ThesisTitle}{}{Telecom madness}
 %% Plaintext version for PDF metadata, uncomment if needed (defauls to \ThesisTitle)
-\NewExpandableDocumentCommand{\ThesisTitlePlaintext}{}{Titre}
+%\NewExpandableDocumentCommand{\ThesisTitlePlaintext}{}{Titre}
 %% Thesis title (if custom formatting is needed for the title page, defauls to \ThesisTitle)
 \NewExpandableDocumentCommand{\ThesisTitleFront}{}{
     \ThesisTitle\\
-    {\Huge\color{gray}vPre 0.0.1}
+    {\Huge\color{gray}Not ready for external use}
 }
 
 %% Author of the thesis
-\NewExpandableDocumentCommand{\ThesisAuthor}{}{\textcolor{red}{Alex Videcoq}}
+\NewExpandableDocumentCommand{\ThesisAuthor}{}{\textcolor{Salmon}{Alex Videcoq}}
 %% Plaintext version for PDF metadata, uncomment if needed (defauls to \ThesisAuthor)
-\NewExpandableDocumentCommand{\ThesisAuthorPlaintext}{}{Alex Videcoq}
+%\NewExpandableDocumentCommand{\ThesisAuthorPlaintext}{}{Alex Videcoq}
 
 %% Year when the thesis is submitted
 \NewDocumentCommand{\YearSubmitted}{}{2025}
@@ -27,21 +27,21 @@
 %% Name of the department or institute, where the work was officially assigned
 %% (according to the Organizational Structure of MFF UK in English,
 %% or a full name of a department outside MFF)
-\NewDocumentCommand{\Department}{}{\textcolor{red}{ISTIC}}
+\NewDocumentCommand{\Department}{}{\textcolor{Salmon}{ISTIC}}
 
 %% Is it a Department (katedra), or an Institute (ústav)?
 \NewDocumentCommand{\DeptType}{}{UFR}
 
 %% Thesis supervisor: name, surname and titles
-\NewDocumentCommand{\Supervisor}{}{\textcolor{red}{Prof. John Doe}}
+\NewDocumentCommand{\Supervisor}{}{\textcolor{Salmon}{Alex Videcoq}}
 %% Thesis co-supervisor: name, surname and titles (uncomment if applicable)
 % \NewDocumentCommand{\CoSupervisor}{}{Prof. Matthieu Davy}
 
 %% Supervisor's department/institute (again according to Organizational structure of MFF)
-\NewDocumentCommand{\SupervisorsDepartment}{}{\textcolor{red}{ISTIC}}
+\NewDocumentCommand{\SupervisorsDepartment}{}{\textcolor{Salmon}{ISTIC}}
 
 %% Study programme and specialization
-\NewDocumentCommand{\StudyProgramme}{}{\textcolor{red}{L2 ISTN}}
+\NewDocumentCommand{\StudyProgramme}{}{\textcolor{Salmon}{L2 ISTN}}
 
 %% Abstract (recommended length around 80-200 words; this is not a copy of your thesis assignment!)
 \NewDocumentCommand{\Abstract}{}{

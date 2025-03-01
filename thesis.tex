@@ -26,12 +26,6 @@
 
 %% Only uncommented files are included (faster compilation)
 %% NOTE: If no files are uncommented, all files are included
-\includeonlysmart{
-    frontmatter/title,
-    chapters/Introduction,
-    chapters/QuickSummary,
-    chapters/Appendix,
-}
 
 \begin{document}
 
@@ -47,7 +41,7 @@
 \include{chapters/QuickSummary}
 
 \mainmatter
-
+\include{chapters/1-Foundations/Chapter-1}
 
 \appendix
 \include{chapters/Appendix}
